@@ -1,0 +1,104 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilo do conteúdo principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilo do parágrafo de apresentação */
+.apresentacao {
+    text-align: justify; /* Justifica o texto */
+    margin: 20px auto; /* Centraliza o parágrafo na página */
+    width: 80%; /* Define uma largura para o parágrafo */
+    max-width: 800px; /* Define uma largura máxima para o parágrafo */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Estilo das seções */
+section {
+    margin: 30px 0;
+}
+
+/* Estilo do título das seções */
+h2 {
+    color: #333;
+    font-size: 2em;
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo das imagens */
+.img-card {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 70%; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos botões */
+.button-group {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+    margin-top: 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: #777c81; /* Cor do botão */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
+}
+
+.btn-link:hover {
+    background-color: #469af5; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento */
+}
+
+/* Estilo das listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+
+/* ```css
+/* Estilo do rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
